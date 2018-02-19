@@ -6,10 +6,10 @@ use Bernard\Driver\Predis\Driver;
 use Predis\Client;
 
 /**
- * @group    functional
+ * @group    integration
  * @requires extension redis
  */
-final class FunctionalDriverTest extends \PHPUnit\Framework\TestCase
+final class DriverIntegrationTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var Client
